@@ -30,6 +30,13 @@ The dataset contains **541,000+ transactions** from an e-commerce retailer and i
 - Customer ID
 - Country
 
+The dataset used in this analysis is the **Online Retail dataset**.
+
+Source:  
+https://archive.ics.uci.edu/ml/datasets/Online+Retail
+
+Due to file size limitations the dataset is not included in this repository.
+
 ---
 
 # Tools Used
@@ -159,3 +166,4 @@ Possible strategies include:
 ---
 
 # Repository Structure
+
