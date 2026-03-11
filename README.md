@@ -1,2 +1,2 @@
 # ecommerce-sales-analysis
-E-commerce sales data analysis using Python, Pandas and Matplotlib.
+Python analysis of e-commerce sales data exploring revenue trends, product performance, and customer concentration.
