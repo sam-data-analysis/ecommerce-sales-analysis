@@ -19,7 +19,15 @@ The goal is to generate insights that could help an e-commerce business improve 
 
 ---
 
-# Dataset
+## Key Visualisations
+
+![Revenue by Country](images/revenue_by_country.png)
+
+![Monthly Revenue](images/monthly_revenue_trend.png)
+
+---
+
+## Dataset
 
 The dataset contains **541,000+ transactions** from an e-commerce retailer and includes:
 
@@ -41,16 +49,44 @@ Due to file size limitations the dataset is not included in this repository.
 
 ---
 
-# Tools Used
+## Tools Used
 
 Python  
 Pandas  
 Matplotlib  
 Jupyter Notebook  
+GitHub  
 
 ---
 
-# Key Analyses
+## Methodology
+
+The analysis followed these key steps:
+
+1. Data cleaning and preprocessing
+   - Removed cancelled transactions
+   - Removed negative quantities
+   - Created revenue field (Quantity × Unit Price)
+
+2. Feature engineering
+   - Extracted month from invoice dates
+   - Aggregated revenue by product, customer and country
+
+3. Exploratory analysis
+   - Revenue by country
+   - International market comparison
+   - Monthly revenue trends
+   - Product revenue distribution
+   - Customer concentration (Pareto analysis)
+
+4. Business interpretation
+   - Identified revenue concentration patterns
+   - Highlighted seasonal demand trends
+   - Generated strategic business recommendations
+
+---
+
+## Key Analyses
 
 ## Revenue by Country
 
@@ -60,7 +96,7 @@ This chart shows where the business generates the majority of its revenue.
 
 ### Insight
 
-The United Kingdom dominates sales, but several international markets show meaningful demand.
+The United Kingdom accounts for the majority of revenue. However, several international markets also generate meaningful sales.
 
 ---
 
@@ -74,7 +110,7 @@ Removing the UK reveals the strongest international markets.
 
 The Netherlands, Ireland, Germany, and France are the most significant non-UK markets.
 
-These countries represent strong candidates for **international expansion or targeted marketing**.
+These markets may represent opportunities for targeted marketing, localisation strategies, or expanded logistics support.
 
 ---
 
@@ -114,7 +150,7 @@ This suggests the business relies on a **broad product catalogue rather than a f
 
 ### Insight
 
-Approximately **27% of customers generate 80% of revenue**.
+Approximately **27% of customers generate around 80% of revenue**, indicating a strong concentration of value among a relatively small customer segment.
 
 This suggests opportunities for:
 
@@ -124,9 +160,9 @@ This suggests opportunities for:
 
 ---
 
-# Business Recommendations
+## Business Recommendations
 
-Based on the analysis:
+Based on the findings from the analysis, several strategic actions could improve business performance:
 
 ### Maintain a diverse product portfolio
 
@@ -176,3 +212,4 @@ Possible strategies include:
 - Customer retention campaigns
 
 ---
+
