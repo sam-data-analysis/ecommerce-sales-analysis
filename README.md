@@ -21,9 +21,9 @@ The goal is to generate insights that could help an e-commerce business improve 
 
 ## Key Visualisations
 
-![Revenue by Country](images/revenue_by_country.png)
+<img src="images/revenue_by_country.png" width="700">
 
-![Monthly Revenue](images/monthly_revenue_trend.png)
+<img src="images/monthly_revenue_trend.png" width="700">
 
 ---
 
@@ -212,4 +212,5 @@ Possible strategies include:
 - Customer retention campaigns
 
 ---
+
 
