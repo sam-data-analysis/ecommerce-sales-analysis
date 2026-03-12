@@ -4,16 +4,18 @@ Python data analysis project exploring e-commerce sales performance, customer co
 
 ---
 
-# Project Overview
+## Project Overview
 
-This project analyses transactional e-commerce sales data to identify:
+This project analyses e-commerce transaction data to identify key drivers of revenue and customer behaviour.
 
-• Key revenue drivers  
-• Customer concentration  
-• Geographic market opportunities  
-• Sales trends over time  
+The analysis explores:
 
-The goal is to demonstrate how data analysis can generate **practical business insights for an online retailer**.
+- Revenue distribution across products
+- Geographic sales performance
+- Customer concentration and high-value customers
+- Monthly revenue trends and seasonality
+
+The goal is to generate insights that could help an e-commerce business improve inventory management, marketing strategy, and customer retention.
 
 ---
 
@@ -98,12 +100,11 @@ Businesses could prepare by:
 
 ### Insight
 
-A small proportion of products generates a large share of revenue.
+Revenue is distributed across a wide range of products rather than being concentrated in a few best sellers.
 
-This supports the **Pareto principle** often seen in retail:
+The top 10 products generate only a small share of total revenue, indicating that many SKUs contribute meaningfully to overall sales.
 
-- Focus inventory on high-performing products
-- Reduce low-performing SKUs
+This suggests the business relies on a **broad product catalogue rather than a few dominant items.**
 
 ---
 
@@ -127,10 +128,17 @@ This suggests opportunities for:
 
 Based on the analysis:
 
-### Focus on top performing products
+### Maintain a diverse product portfolio
 
-A small number of products generate a large share of revenue.  
-Prioritising these products in marketing and inventory management could improve profitability.
+Revenue is distributed across many products rather than concentrated in a few best sellers.
+
+This suggests the business benefits from maintaining a **broad product range** rather than relying on a small number of hero products.
+
+Possible strategies include:
+
+- Ensuring consistent availability across a wide SKU range
+- Monitoring long-tail products that contribute steady revenue
+- Avoiding over-concentration on a small set of items
 
 ---
 
@@ -149,13 +157,17 @@ show strong demand outside the UK.
 
 ### Prepare for seasonal demand spikes
 
-Revenue increases significantly in Q4. Planning inventory and advertising ahead of this period could maximise revenue.
+Revenue increases significantly during Q4, suggesting strong seasonal demand leading up to the holiday period.
+
+Planning inventory levels and marketing campaigns ahead of this period could help maximise sales during peak demand.
 
 ---
 
 ### Retain high-value customers
 
-A relatively small portion of customers drives most revenue.
+Customer analysis shows that a relatively small proportion of customers contributes a large share of revenue.
+
+Focusing on retaining these customers could improve long-term profitability.
 
 Possible strategies include:
 
@@ -164,6 +176,3 @@ Possible strategies include:
 - Customer retention campaigns
 
 ---
-
-# Repository Structure
-
